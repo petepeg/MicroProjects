@@ -1,5 +1,5 @@
 # Micro Projects
-Here is where I'm putting project that interest me but are too small to merrit a their own repo.
+Here is where I'm putting project that interest me but are too small to merrit their own repo.
 
 ## Farey Algorithm
 This is an algorithm for computing a rational approximation of a decimal. It works by starting with 0 and 1, and taking the halfway point  (1/2) and checking if the decimal expansion of 1/2 is equal to, greater than or less than the input number. If they are equal, jobs done. Otherwise if 1/2 is greater than our number we know our number's rational approximation lives in the lower half, between 0-1/2 and if 1/2 is less than our number we know our number lives between 1/2-1. We than repeat this process either till we find the fraction or get bored and decide we are close enough. This is essentially a binary search of all possible fractions between 0 and 1 which works surprisingly well.
